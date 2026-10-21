@@ -196,7 +196,7 @@ export async function buildApp(options = {}) {
       },
     },
     async () => {
-      // await sleep(500);
+      await sleep(500);
       return { status: "ok" };
     },
   );
